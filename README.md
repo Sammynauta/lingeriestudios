@@ -1,3 +1,15 @@
+<h1 align="center"> Linger Studios </h1>
+
+<img src='src/assets/slide.png'>
+
+<hr>
+
+<h3 align="center"> Sobre o Projeto </h3>
+
+- deve se ajustar ao tamanhos de tela.
+- botoes ilustrativos
+- o objetivo deste projeto foi aplicar meu conhecimento em design web.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

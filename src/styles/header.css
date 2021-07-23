@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script:wght@500&display=swap');
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/sexy1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 4px;
+    width: 500px;
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+
+article strong {
+    color: white;
+    font-size:  5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+}
+
+article span {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    left: 6%;
+    top: 10%;
+    position: relative;
+    padding: 8px;
+    width: 100px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.botao #seta {
+    color: white;
+    transition: 0.6s ease;
+}
+
+.botao:hover #seta {
+    transform: translateX(5px)
+}
+
+@media (max-width: 900px) {
+    article {
+        width: 300px;
+        top: 20%;
+    }
+    article strong {
+        font-size:  4rem;  
+    }
+    article span {
+        font-size: 20px;
+    }
+    .botao {
+        top:20%;
+    }
+}
+@media (max-width: 576px) {
+    article {
+        width: 300px;
+        top: 25%;
+    }
+    article strong {
+        font-size:  3rem;
+    }
+    article span {
+        font-size: 16px;
+    }
+    .botao {
+        top:25%;
+    }
+}
